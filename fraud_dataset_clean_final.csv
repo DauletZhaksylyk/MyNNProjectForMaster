@@ -1,0 +1,544 @@
+text,label,scenario_type,channel,speaker_role_pattern,fraud_stage,has_code_request,has_money_transfer_request,has_urgency,has_threat,has_authority_impersonation,has_sensitive_data_request,has_remote_access_request,victim_confused_or_resisting,risk_markers_count
+Ваш заблокирован Разблокировка стоит,fraud,generic_fraud,sms,single_message,unknown,0,0,0,1,0,0,0,0,1
+Ваш интернет будет отключен за нарушения Оплатите штраф,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,1,0,0,0,0,2
+Ваш компьютер заражен вирусами Оплатите очистку,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Прием у стоматолог отменен Перенесли на в Подтвердите пожалуйста,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Роуминг активирован Стоимость интернет звонки,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Билеты на концерт забронированы Место ряд,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Результаты анализов критичные Нужно срочное обследование за,fraud,medical_or_service,sms,single_message,pressure,0,0,1,0,0,0,0,0,1
+Баланс карты Последняя операция,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Проблема по заявке решена Оцените качество работы специалиста С уважением поддержки,normal,benign_service,sms,single_message,benign,0,0,0,0,1,0,0,0,1
+Папа это я Саша Попал в аварию нужны деньги на ремонт,fraud,relative_in_trouble,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Бабушка это внук Помоги деньгами верну завтра,fraud,relative_in_trouble,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Посылка из за границы Таможенная пошлина,fraud,delivery_fee,sms,single_message,unknown,0,1,0,0,0,0,0,0,1
+Кто то пытается войти в ваш онлайн Назовите код для блокировки входа,fraud,generic_fraud,sms,single_message,data_request,1,0,0,0,0,0,0,0,1
+Ваш номер заблокируют за неактивность Активируйте кодом,fraud,generic_fraud,sms,single_message,hook,0,0,0,1,0,0,0,0,1
+Ваши деньги в опасности Переведите их на защищенный счет,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,1,0,0,0,0,2
+Здравствуйте Ваш номер будет отключен через час продлите сим карту,fraud,sim_block,sms,single_message,hook,0,0,0,1,0,0,0,0,1
+Здравствуйте это Ваша SIM карта будет заблокирована через час Для продления назовите код,fraud,sim_block,sms,single_message,data_request,1,0,0,1,0,0,0,0,2
+Заочное решение о взыскании Отмените оплатив госпошлину,fraud,delivery_fee,sms,single_message,transfer_request,0,1,0,1,0,0,0,0,2
+Ваши активы будут арестованы Сохраните их переведя на спецсчет,fraud,safe_account,sms,single_message,transfer_request,0,1,0,1,0,0,0,0,2
+Билеты на спектакль забронированы Место ряд Спасибо за обращение,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваш сын попал в больницу Нужны деньги на срочную операцию,fraud,relative_in_trouble,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Справка готова Получите в регистратуре предъявив паспорт,normal,medical_or_service,sms,single_message,benign,0,0,0,0,0,1,0,0,1
+Посылка из за границы Таможенная пошлина Времени мало,fraud,delivery_fee,sms,single_message,pressure,0,1,1,0,0,0,0,0,2
+Ваши документы используются мошенниками Переведите деньги на безопасный счет Не откладывайте,fraud,safe_account,sms,single_message,transfer_request,0,1,1,0,0,0,0,0,2
+ВНИМАНИЕ Ваш паспорт недействителен Восстановите через портал оплатив,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,0,0,1,0,0,2
+Поздравляем Ваш номер выиграл в лотерее Получите приз по ссылке,fraud,generic_fraud,sms,single_message,hook,0,0,0,0,0,0,0,0,0
+Билет на поезд А забронирован Место,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+в пути с заказом Ожидаемое время доставки,normal,delivery_fee,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+На вашем счету подозрительная операция на Подтвердите что это вы,fraud,generic_fraud,sms,single_message,hook,0,0,0,1,0,0,0,0,1
+Тренировка в в отменяется Хорошего дня,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваш тариф будет изменен на дорогой Отмените изменения кодом,fraud,generic_fraud,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Акция завершена Ваш приз Переведите за оформление документов,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+аренда завершена Стоимость поездки,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваша карта заблокирована по подозрению в мошенничестве Разблокируйте назвав CVV код,fraud,generic_fraud,sms,single_message,data_request,0,0,0,1,0,1,0,0,2
+Долг за воду Оплатите до иначе отключение,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,1,0,0,0,0,2
+Срочно оплатите задолженность за иначе отключим газ,fraud,generic_fraud,sms,single_message,transfer_request,0,1,1,0,0,0,0,0,2
+не может найти ваш адрес Подтвердите доставку доплатив,fraud,delivery_fee,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Розыгрыш завершен Ваш выигрыш составляет Подтвердите получение по номеру карты,fraud,generic_fraud,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Проблема по заявке решена Оцените качество работы специалиста,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Рейс SU задерживается на минут,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Напоминание задолженность Погасите для избежания блокировки,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Код авторизации для подтверждения платежа на сумму,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваши счета под следствием Переведите на защищенный счет для сохранности,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Ваше обращение принято Ответим в течение часов,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+подано Водитель Михаил авто белый время подачи мин,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Тариф изменен на Премиум Стоимость с,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Платеж на сумму успешно проведен в,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Занятие по английский в переносится на,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Техработы с до Возможны кратковременные перебои связи,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Совещание завтра в в конференц зале Подготовьте отчет по проекту,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваш паспорт недействителен Восстановите через портал оплатив,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,0,0,1,0,0,2
+Квитанция за февраль готова Сумма к оплате,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Мама у меня проблемы срочно нужны деньги Переведи на номер карты,fraud,relative_in_trouble,sms,single_message,transfer_request,0,1,1,0,0,1,0,0,3
+Результаты анализов готовы Заберите в регистратуре с до,normal,medical_or_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+У вас обнаружено заболевание Необходимо срочное лечение за,fraud,generic_fraud,sms,single_message,pressure,0,0,1,0,0,0,0,0,1
+Ваш код подтверждения Никому его не сообщайте,normal,benign_service,sms,single_message,benign,1,0,0,0,0,0,0,0,1
+Результаты анализов готовы Заберите в регистратуре с до Хорошего дня,normal,medical_or_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Заказ оформлен на сумму Доставка с до,normal,delivery_fee,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваш аккаунт взломан Восстановление за Времени мало,fraud,generic_fraud,sms,single_message,pressure,0,0,1,0,0,0,0,0,1
+Ваша дочь задержана Для освобождения нужно,fraud,generic_fraud,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+ВНИМАНИЕ Вы стали победителем акции Приз Оплатите налог для получения,fraud,government_or_police,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Здравствуйте это Ваша SIM карта будет заблокирована через час Для продления назовите код Это срочно,fraud,sim_block,sms,single_message,data_request,1,0,1,1,0,0,0,0,3
+Код подтверждения для входа в Онлайн Никому не сообщайте,normal,benign_service,sms,single_message,benign,1,0,0,0,0,0,0,0,1
+Ваш аккаунт взломан Восстановление за,fraud,generic_fraud,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Ваши счета под следствием Переведите деньги на защищенный счет,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Перевод на карту выполнен успешно,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+ВНИМАНИЕ Срочно оплатите задолженность за иначе отключим газ,fraud,generic_fraud,sms,single_message,transfer_request,0,1,1,0,0,0,0,0,2
+Ваши документы используются мошенниками Переведите деньги на безопасный счет,fraud,safe_account,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Плановое обслуживание сети с до,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+доставки Посылка задержана на таможне Доплата для освобождения,fraud,delivery_fee,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Квитанция за май готова Сумма к оплате Спасибо за обращение,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Звоню из ваш номер будет отключен завтра Для сохранения услуг продиктуйте код,fraud,generic_fraud,sms,single_message,hook,1,0,0,1,0,0,0,0,2
+Вы стали победителем акции Приз Оплатите налог для получения,fraud,government_or_police,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Остаток по тарифу интернет ГБ минуты мин,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Заочное решение о взыскании Отмените оплатив госпошлину Не откладывайте,fraud,delivery_fee,sms,single_message,transfer_request,0,1,1,1,0,0,0,0,3
+Командировка в Санкт с Билеты и гостиница забронированы,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Напоминание запись к врачу в кабинет,normal,medical_or_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+подано Водитель Иван авто серый время подачи мин,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Здравствуйте Для продления сим карты нужны ваши данные паспорта,fraud,sim_block,sms,single_message,unknown,0,0,0,0,0,1,0,0,1
+С вашей карты списали Если это не вы назовите код,fraud,generic_fraud,sms,single_message,data_request,1,0,0,0,0,0,0,0,1
+Покупка в на сумму Доступный лимит С уважением поддержки,normal,benign_service,sms,single_message,benign,0,0,0,0,1,0,0,0,1
+Результаты экзамена опубликованы Проверьте в личном кабинете,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Мама у меня проблемы срочно нужны деньги Переведи на этот номер карты,fraud,relative_in_trouble,sms,single_message,transfer_request,0,1,1,0,0,1,0,0,3
+Техобслуживание сети с до Возможны кратковременные перебои,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Лекция Квантовая физика состоится в аудитории Хорошего дня,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Срочно оплатите задолженность за иначе отключим газ Не откладывайте,fraud,generic_fraud,sms,single_message,transfer_request,0,1,1,0,0,0,0,0,2
+Платеж на сумму успешно проведен в С уважением поддержки,normal,benign_service,sms,single_message,benign,0,0,0,0,1,0,0,0,1
+Тариф изменен на Бизнес Стоимость с,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Обновление системы завершено Новые функции доступны в личном кабинете,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Посылка прибыла в пункт выдачи Заберите до Код получения,normal,delivery_fee,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Подписка на интернет продлена до Следующее списание,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Встреча с клиентом перенесена на понедельник Подготовьте презентацию,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Саша документы готовы Заберите в офисе с до,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Срок сим карты истек для восстановления услуг продиктуйте пароль,fraud,sim_block,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Занятие по математика в переносится на,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Папа это я Никита Попал в аварию нужны деньги на ремонт,fraud,relative_in_trouble,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Услуга интернет подключена Абонентская плата,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+ВНИМАНИЕ На вашем счету подозрительная операция на Подтвердите что это вы,fraud,generic_fraud,sms,single_message,hook,0,0,0,1,0,0,0,0,1
+ВНИМАНИЕ Ваш аккаунт взломан Восстановление за,fraud,generic_fraud,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Подтверждение операции Код Если это не вы обратитесь в,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Отпуск с согласован Приказ будет готов до конца недели,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Посылка не доставлена требуется доплата Оплатите по ссылке,fraud,delivery_fee,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Штраф за превышение скорости Оплатите со скидкой до,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Зарплата за апрель поступила на карту Сумма,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Заказ готов к выдаче в пункте самовывоза Режим работы,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Заказ оформлен на сумму Доставка с до С уважением поддержки,normal,delivery_fee,sms,single_message,benign,0,0,0,0,1,0,0,0,1
+Покупка в на сумму Доступный лимит Хорошего дня,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Папа это я Максим Попал в аварию нужны деньги на ремонт,fraud,sim_block,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Домофон временно не работает Ремонт с до,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваша посылка задержана необходима доплата за хранение,fraud,delivery_fee,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+SMS код для подтверждения Срок действия мин,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+ВНИМАНИЕ Ваш компьютер заражен вирусами Оплатите очистку,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Справка готова Получите в регистратуре предъявив паспорт Спасибо за обращение,normal,medical_or_service,sms,single_message,benign,0,0,0,0,0,1,0,0,1
+Справка готова Получите в регистратуре предъявив паспорт Хорошего дня,normal,medical_or_service,sms,single_message,benign,0,0,0,0,0,1,0,0,1
+Елена Для безопасности SIM карты сообщите код из СМС,fraud,sim_block,sms,single_message,data_request,1,0,0,0,0,0,0,0,1
+Показания счетчиков приняты К доплате до,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Роуминг активирован Стоимость интернет звонки Спасибо за обращение,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Прием у кардиолог отменен Перенесли на в Подтвердите пожалуйста,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Обновление системы завершено Новые функции доступны в личном кабинете С уважением поддержки,normal,benign_service,sms,single_message,benign,0,0,0,0,1,0,0,0,1
+доставки Посылка задержана на таможне Доплата для освобождения Не откладывайте,fraud,delivery_fee,sms,single_message,transfer_request,0,1,1,0,0,0,0,0,2
+Задолженность за электричество Оплатите срочно,fraud,generic_fraud,sms,single_message,transfer_request,0,1,1,0,0,0,0,0,2
+Против вас возбуждено дело Избежите ареста оплатив залог Времени мало,fraud,government_or_police,sms,single_message,transfer_request,0,1,1,1,0,0,0,0,3
+Прием у невролог отменен Перенесли на в Подтвердите пожалуйста,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Здравствуйте я звоню из тех поддержки компании у вас истекает срок сим карты вы хотите продлить,fraud,sim_block,sms,single_message,unknown,0,0,0,0,1,0,0,0,1
+Услуга мобильная связь подключена Абонентская плата,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+ВНИМАНИЕ Ваши активы будут арестованы Сохраните их переведя на спецсчет,fraud,safe_account,sms,single_message,transfer_request,0,1,0,1,0,0,0,0,2
+Зарплата за март поступила на карту Сумма,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Встреча с клиентом перенесена на в Место ул Молодежная,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Прием у окулист отменен Перенесли на в Подтвердите пожалуйста,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Командировка в с Билеты и гостиница забронированы,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваш счет будет заморожен через час Предотвратите блокировку сообщив код Не откладывайте,fraud,generic_fraud,sms,single_message,unknown,0,0,1,0,0,0,0,0,1
+подано Водитель Михаил авто серый время подачи мин Хорошего дня,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Автоплатеж за будет списан,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+У вас заказная посылка Доплатите для получения,fraud,delivery_fee,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Автоплатеж за интернет будет списан,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Код авторизации для подтверждения платежа на сумму Спасибо за обращение,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Квитанция за март готова Сумма к оплате С уважением поддержки,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,1,0,0,0,2
+Отпуск с согласован Приказ будет готов до конца недели С уважением поддержки,normal,benign_service,sms,single_message,benign,0,0,0,0,1,0,0,0,1
+Кто то пытается войти в ваш онлайн Назовите код для блокировки входа Не откладывайте,fraud,generic_fraud,sms,single_message,data_request,1,0,1,0,0,0,0,0,2
+Против вас возбуждено дело Избежите ареста оплатив залог,fraud,government_or_police,sms,single_message,transfer_request,0,1,0,1,0,0,0,0,2
+Против вас возбуждено дело Избежите ареста оплатив залог Не откладывайте,fraud,government_or_police,sms,single_message,transfer_request,0,1,1,1,0,0,0,0,3
+Подписка на мобильная связь продлена до Следующее списание,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваш номер заблокируют за неактивность Активируйте кодом Времени мало,fraud,generic_fraud,sms,single_message,pressure,0,0,1,1,0,0,0,0,2
+ВНИМАНИЕ Бабушка это внук Помоги деньгами верну завтра,fraud,relative_in_trouble,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Платеж по карте на сумму в магазине успешно проведен,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваш заказ доставлен по адресу ул Советская Спасибо за покупку,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Пополнение счета на Текущий баланс,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+На вашем счету подозрительная операция на Подтвердите что это вы Не откладывайте,fraud,generic_fraud,sms,single_message,hook,0,0,1,1,0,0,0,0,2
+Встреча с клиентом перенесена на в Место пр Победы,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Код для входа в личный кабинет Действителен минут С уважением поддержки,normal,benign_service,sms,single_message,benign,0,0,0,0,1,0,0,0,1
+Код для входа в личный кабинет Действителен минут,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+не может найти ваш адрес Подтвердите доставку доплатив Времени мало,fraud,delivery_fee,sms,single_message,transfer_request,0,1,1,0,0,0,0,0,2
+Лекция История состоится в аудитории,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Задолженность Избежите штрафа при оплате до,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Срок действия вашей SIM истекает сегодня Подтвердите продление кодом,fraud,sim_block,sms,single_message,unknown,0,0,1,0,0,0,0,0,1
+Ваш код подтверждения Никому его не сообщайте Спасибо за обращение,normal,benign_service,sms,single_message,benign,1,0,0,0,0,0,0,0,1
+Одноразовый пароль Используйте для входа в систему,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Подписка на продлена до Следующее списание,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваше обращение принято Ответим в течение часов Спасибо за обращение,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Напоминание запись к врачу в кабинет Хорошего дня,normal,medical_or_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Снятие наличных в банкомате Комиссия Спасибо за обращение,normal,bank_impersonation,sms,single_message,benign,0,0,0,0,1,0,0,0,1
+Ваш интернет будет отключен за нарушения Оплатите штраф Времени мало,fraud,generic_fraud,sms,single_message,transfer_request,0,1,1,1,0,0,0,0,3
+Вы выиграли в лотерею от один миллион Для получения приза нужно оплатить налог,fraud,government_or_police,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Зачет по физика назначен на в,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваш счет будет заморожен через час Предотвратите блокировку сообщив код,fraud,generic_fraud,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Занятие по история в переносится на,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Отключение горячей воды с по в связи с плановым ремонтом Хорошего дня,normal,benign_service,sms,single_message,benign,0,0,0,1,0,0,0,0,1
+Техработы с до Возможны кратковременные перебои связи Спасибо за обращение,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Снятие наличных в банкомате Комиссия,normal,bank_impersonation,sms,single_message,benign,0,0,0,0,1,0,0,0,1
+Тренировка в в отменяется,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Папа это я Артем Попал в аварию нужны деньги на ремонт,fraud,relative_in_trouble,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Услуга подключена Абонентская плата,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Лотерея вы выиграли автомобиль стоимостью Оплатите оформление,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Встреча с клиентом перенесена на в Место ул Советская,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Трек номер вашей посылки RF Статус в пути прибытие,normal,delivery_fee,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваши анализы показали серьезные проблемы Срочно запишитесь на платную консультацию за,fraud,medical_or_service,sms,single_message,pressure,0,0,1,0,0,0,0,0,1
+Занятие по история в переносится на Хорошего дня,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Абонемент в продлен до Стоимость,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Задолженность за электричество Оплатите срочно Времени мало,fraud,generic_fraud,sms,single_message,transfer_request,0,1,1,0,0,0,0,0,2
+Ваш интернет будет отключен за нарушения Избежать блокировки можно оплатив штраф,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,1,0,0,0,0,2
+Покупка в на сумму Доступный лимит,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Спасибо за использование услуг Ваш тариф Безлимит активен до,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Лекция Основы программирования состоится в аудитории,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Квитанция за март готова Сумма к оплате,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Диспансеризация назначена на в Явка обязательна,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Зачет по математика назначен на в,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+в пути с заказом Ожидаемое время доставки Спасибо за обращение,normal,delivery_fee,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Заказ A доставлен Спасибо за покупку,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Акция завершена Ваш приз Переведите за оформление документов Не откладывайте,fraud,generic_fraud,sms,single_message,transfer_request,0,1,1,0,0,0,0,0,2
+ВНИМАНИЕ Ваша карта заблокирована по подозрению в мошенничестве Разблокируйте назвав CVV код,fraud,generic_fraud,sms,single_message,data_request,0,0,0,1,0,1,0,0,2
+Билеты на выставка забронированы Место ряд С уважением поддержки,normal,benign_service,sms,single_message,benign,0,0,0,0,1,0,0,0,1
+Фильм Мстители начинается в Зал места,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Здравствуйте я звоню из У вас заблокирована карта по подозрению в мошенничестве,fraud,generic_fraud,sms,single_message,unknown,0,0,0,1,0,0,0,0,1
+Папа это я Дима Попал в аварию нужны деньги на ремонт Времени мало,fraud,relative_in_trouble,sms,single_message,pressure,0,0,1,0,0,0,0,0,1
+Фильм Человек паук начинается в Зал места,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Остаток по тарифу интернет ГБ минуты мин Спасибо за обращение,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+подано Водитель Андрей авто черный время подачи мин,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Фильм Аватар начинается в Зал места,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Тариф изменен на Стандарт Стоимость с,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Новые возможности Подключите Видео за,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Зачет по английский назначен на в,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Встреча с клиентом перенесена на в Место пр Мира,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Роуминг активирован Тарифы звонки интернет,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Здравствуйте это У вас истекает срок действия SIM карты хотите продлить,fraud,sim_block,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Твойе обращение принято Ответим в течение часов,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваш заказ доставлен по адресу ул Ленина Спасибо за покупку Спасибо за обращение,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Занятие по физика в переносится на,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Техработы на линии завтра с до Возможны перебои,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Егор документы готовы Заберите в офисе с до,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+ВНИМАНИЕ Заочное решение о взыскании Отмените оплатив госпошлину,fraud,delivery_fee,sms,single_message,transfer_request,0,1,0,1,0,0,0,0,2
+Квитанция за май готова Сумма к оплате,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Чтобы не потерять номер подтвердите сим карту кодом из СМС,fraud,sim_block,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Билеты на спектакль забронированы Место ряд,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваш заказ доставлен по адресу ул Ленина Спасибо за покупку,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Результаты экзамена опубликованы Проверьте в личном кабинете С уважением поддержки,normal,benign_service,sms,single_message,benign,0,0,0,0,1,0,0,0,1
+Кто то пытается войти в ваш онлайн Назовите код для блокировки входа Времени мало,fraud,generic_fraud,sms,single_message,data_request,1,0,1,0,0,0,0,0,2
+Ваши анализы показали серьезные проблемы Срочно запишитесь на платную консультацию за Не откладывайте,fraud,medical_or_service,sms,single_message,pressure,0,0,1,0,0,0,0,0,1
+ВНИМАНИЕ Задолженность Избежите штрафа при оплате до,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Напоминание о записи к стоматологу завтра в в на Ленина,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Командировка в Санкт с Билеты и гостиница забронированы Спасибо за обращение,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Здравствуйте Ваша сим карта будет аннулирована если не продлите до завтра,fraud,sim_block,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Автоплатеж за будет списан Спасибо за обращение,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Результаты экзамена опубликованы Проверьте в личном кабинете Хорошего дня,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Папа это я Егор Попал в аварию нужны деньги на ремонт,fraud,relative_in_trouble,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Билет на поезд А забронирован Место Хорошего дня,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Отключение горячей воды с по в связи с плановым ремонтом,normal,benign_service,sms,single_message,benign,0,0,0,1,0,0,0,0,1
+Автоплатеж за интернет будет списан с карты завтра,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Штраф за превышение скорости Оплатите со скидкой до Это срочно,fraud,generic_fraud,sms,single_message,transfer_request,0,1,1,0,0,0,0,0,2
+ВНИМАНИЕ Ваш счет будет заморожен через час Предотвратите блокировку сообщив код,fraud,generic_fraud,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Ваша карта заблокирована по подозрению в мошенничестве Разблокируйте назвав CVV код Времени мало,fraud,generic_fraud,sms,single_message,data_request,0,0,1,1,0,1,0,0,3
+Это Номер будет передан другому абоненту если не подтвердите SIM карту,fraud,sim_block,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Подписка на цифровое ТВ продлена до Следующее списание С уважением поддержки,normal,benign_service,sms,single_message,benign,0,0,0,0,1,0,0,0,1
+Лотерея вы выиграли автомобиль стоимостью Оплатите оформление Времени мало,fraud,generic_fraud,sms,single_message,transfer_request,0,1,1,0,0,0,0,0,2
+Против вас возбуждено дело Избежите ареста оплатив залог Это срочно,fraud,government_or_police,sms,single_message,transfer_request,0,1,1,1,0,0,0,0,3
+Андрей документы готовы Заберите в офисе с до,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Добрый день звоню из технической поддержки Ваша сим карта будет заблокирована продлите срок,fraud,sim_block,sms,single_message,unknown,0,0,0,1,1,0,0,0,2
+Последнее предупреждение о блокировке сим карты продлите сейчас,fraud,sim_block,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Здравствуйте Для продления SIM карты доплатите,fraud,sim_block,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Это На вашу SIM карту поступила подозрительная активность,fraud,sim_block,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Автоплатеж за мобильная связь будет списан,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Ваша сим карта заблокирована разблокировка стоит,fraud,sim_block,sms,single_message,unknown,0,0,0,1,0,0,0,0,1
+Данил документы готовы Заберите в офисе с до,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Здравствуйте это Ваша SIM карта будет заблокирована через час Для продления назовите код Времени мало,fraud,sim_block,sms,single_message,data_request,1,0,1,1,0,0,0,0,3
+Ваш сын попал в аварию Нужны деньги на лечение Переведите срочно,fraud,relative_in_trouble,sms,single_message,transfer_request,0,1,1,0,0,0,0,0,2
+У вас заказная посылка Доплатите для получения Это срочно,fraud,delivery_fee,sms,single_message,transfer_request,0,1,1,0,0,0,0,0,2
+Ваш заказ доставлен по адресу ул Гагарина Спасибо за покупку С уважением поддержки,normal,benign_service,sms,single_message,benign,0,0,0,0,1,0,0,0,1
+Квитанция за апрель готова Сумма к оплате,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+подано Водитель Андрей авто белый время подачи мин,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Зарплата за февраль поступила на карту Сумма,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Это Ваша SIM карта истекает для продления сообщите номер карты,fraud,sim_block,sms,single_message,data_request,0,0,0,0,0,1,0,0,1
+Лекция Квантовая физика состоится в аудитории,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+ВНИМАНИЕ Ваш заблокирован Разблокировка стоит,fraud,generic_fraud,sms,single_message,unknown,0,0,0,1,0,0,0,0,1
+Добрый день это Ваша SIM карта будет заблокирована через час Для продления назовите код,fraud,sim_block,sms,single_message,data_request,1,0,0,1,0,0,0,0,2
+Зарплата за май поступила на карту Сумма,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Папа это я Андрей Попал в аварию нужны деньги на ремонт,fraud,relative_in_trouble,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Здравствуйте я Анна из Проверяем сим карту назовите ваш адрес,fraud,sim_block,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Заказ оформлен на сумму Доставка с до Спасибо за обращение,normal,delivery_fee,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Папа это я Данил Попал в аварию нужны деньги на ремонт,fraud,relative_in_trouble,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+подано Водитель Михаил авто черный время подачи мин,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+ВНИМАНИЕ Поздравляем Ваш номер выиграл в лотерее Получите приз по ссылке,fraud,generic_fraud,sms,single_message,hook,0,0,0,0,0,0,0,0,0
+Ваш заказ из готов к выдаче в пункте самовывоза,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Автоплатеж за цифровое ТВ будет списан,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Зачет по физика назначен на в Спасибо за обращение,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Звоню из ваш номер отключат завтра Для продления SIM карты назовите код подтверждения,fraud,sim_block,sms,single_message,data_request,1,0,0,0,0,0,0,0,1
+У вас заказная посылка Доплатите для получения Не откладывайте,fraud,delivery_fee,sms,single_message,transfer_request,0,1,1,0,0,0,0,0,2
+Информируем тарифный план изменен на Стандарт Подробности на сайте,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+С вашей карты списали Если это не вы назовите код Это срочно,fraud,generic_fraud,sms,single_message,data_request,1,0,1,0,0,0,0,0,2
+Артем документы готовы Заберите в офисе с до С уважением поддержки,normal,benign_service,sms,single_message,benign,0,0,0,0,1,0,0,0,1
+Автоплатеж за мобильная связь будет списан Хорошего дня,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Домофон временно не работает Ремонт с до Хорошего дня,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Встреча с клиентом перенесена на в Место пр Победы Спасибо за обращение,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваши счета будут заморожены Предотвратите блокировку,fraud,generic_fraud,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Встреча с клиентом перенесена на в Место ул Центральная Хорошего дня,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Уважаемый абонент Ваш баланс Пополните счет для продолжения пользования услугами,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Тариф изменен на Семейный Стоимость с,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваш тариф изменится отмените изменения кодом подтверждения,fraud,generic_fraud,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Тариф изменен на Безлимит Стоимость с,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Ваш заказ доставлен по адресу ул Центральная Спасибо за покупку,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Данил документы готовы Заберите в офисе с до С уважением поддержки,normal,benign_service,sms,single_message,benign,0,0,0,0,1,0,0,0,1
+Отключение горячей воды с по в связи с плановым ремонтом Спасибо за обращение,normal,benign_service,sms,single_message,benign,0,0,0,1,0,0,0,0,1
+Ваш код подтверждения Никому его не сообщайте С уважением поддержки,normal,benign_service,sms,single_message,benign,1,0,0,0,1,0,0,0,2
+Привет я из тех Срок вашей SIM карты истекает завтра нужно продлить,fraud,sim_block,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Ваш тариф будет изменен на дорогой Отмените изменения кодом Времени мало,fraud,generic_fraud,sms,single_message,pressure,0,0,1,0,0,0,0,0,1
+Посылка из за границы Таможенная пошлина Не откладывайте,fraud,delivery_fee,sms,single_message,unknown,0,1,1,0,0,0,0,0,2
+Уведомление Автоплатеж за Премиум будет списан,normal,benign_service,sms,single_message,transfer_request,0,1,0,0,0,0,0,0,1
+Покупка в на сумму Доступный лимит Спасибо за обращение,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Это Срочно оплатите за продление сим карты,fraud,sim_block,sms,single_message,transfer_request,0,1,1,0,0,0,0,0,2
+ВНИМАНИЕ Ваш интернет будет отключен за нарушения Оплатите штраф,fraud,generic_fraud,sms,single_message,transfer_request,0,1,0,1,0,0,0,0,2
+ВНИМАНИЕ Ваш тариф будет изменен на дорогой Отмените изменения кодом,fraud,generic_fraud,sms,single_message,unknown,0,0,0,0,0,0,0,0,0
+Услуга Интернет подключена Стоимость,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Это Ваша сим карта будет заблокирована из за истечения срока действия,fraud,sim_block,sms,single_message,unknown,0,0,0,1,0,0,0,0,1
+Проблема по заявке решена Оцените качество работы специалиста Спасибо за обращение,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+Папа это я Никита Попал в аварию нужны деньги на ремонт Не откладывайте,fraud,relative_in_trouble,sms,single_message,unknown,0,0,1,0,0,0,0,0,1
+Абонент Подписка на Музыка продлена до,normal,benign_service,sms,single_message,benign,0,0,0,0,0,0,0,0,0
+"Мошенник - Здравствуйте
+Ответчик - Здравствуйте
+Мошенник - Я звоню из службы безопасности банка
+Ответчик - Да слушаю
+Мошенник - По вашей карте идет подозрительная операция
+Мошенник - Чтобы отменить списание продиктуйте код из смс",fraud,bank_impersonation,call,dialogue,data_request,1,0,0,1,1,0,0,0,3
+"Мошенник - Добрый день
+Ответчик - Добрый день
+Мошенник - Вас беспокоит сотрудник банка
+Мошенник - На ваше имя пытаются оформить кредит
+Мошенник - Для отмены назовите код подтверждения",fraud,bank_impersonation,call,dialogue,data_request,1,0,0,1,1,0,0,0,3
+"Оператор - Алло здравствуйте
+Клиент - Да
+Оператор - Это мобильный оператор
+Оператор - Ваша SIM карта будет заблокирована сегодня
+Оператор - Чтобы продлить обслуживание скажите код из сообщения",fraud,sim_block,call,dialogue,data_request,1,0,1,1,1,0,0,0,4
+"Звонящий - Здравствуйте
+Ответчик - Да
+Звонящий - Это сотрудник киберполиции
+Звонящий - Ваши деньги нужно перевести на безопасный счет
+Звонящий - Иначе их спишут мошенники",fraud,safe_account,call,dialogue,transfer_request,0,1,0,1,1,0,0,0,3
+"Звонящий - Добрый вечер
+Ответчик - Слушаю
+Звонящий - Я из банка техподдержки
+Звонящий - Не кладите трубку
+Звонящий - Сейчас вам придет смс скажите код для блокировки операции",fraud,bank_impersonation,call,dialogue,data_request,1,0,1,0,1,0,0,0,3
+"Мошенник - Здравствуйте
+Ответчик - Да
+Мошенник - На ваш аккаунт оформлена заявка на перевод
+Мошенник - Для отмены срочно подтвердите личность и назовите пароль из смс",fraud,generic_fraud,call,dialogue,transfer_request,0,1,1,0,0,0,0,0,2
+"Оператор - Добрый день
+Клиент - Да
+Оператор - Это служба безопасности Kaspi
+Оператор - С вашего счета хотят снять деньги
+Оператор - Чтобы защитить счет переведите средства на резервный счет",fraud,safe_account,call,dialogue,transfer_request,0,1,0,0,1,0,0,0,2
+"Звонящий - Алло
+Ответчик - Да кто это
+Звонящий - Я из банка
+Звонящий - На вас оформлен кредит
+Звонящий - Для отмены установите AnyDesk и включите демонстрацию экрана",fraud,bank_impersonation,call,dialogue,hook,0,0,0,1,1,0,1,0,3
+"Мошенник - Здравствуйте
+Ответчик - Да
+Мошенник - Поступила заявка на смену финансового номера
+Мошенник - Чтобы остановить замену скажите код из смс прямо сейчас",fraud,generic_fraud,call,dialogue,data_request,1,0,1,0,0,0,0,0,2
+"Звонящий - Добрый день
+Ответчик - Слушаю
+Звонящий - Вас беспокоит Национальный банк
+Звонящий - Ваши средства в опасности
+Звонящий - Переведите деньги на страховой счет",fraud,safe_account,call,dialogue,transfer_request,0,1,0,1,1,0,0,0,3
+"Мошенник - Здравствуйте
+Ответчик - Да
+Мошенник - Я помощник следователя
+Мошенник - На ваши данные оформлены кредиты
+Мошенник - Чтобы помочь следствию назовите код и реквизиты карты",fraud,government_or_police,call,dialogue,data_request,1,0,0,1,1,1,0,0,4
+"Звонящий - Алло здравствуйте
+Ответчик - Здравствуйте
+Звонящий - Это поддержка маркетплейса
+Звонящий - Для возврата денег нужно продиктовать код подтверждения",fraud,generic_fraud,call,dialogue,unknown,1,0,0,0,1,0,0,0,2
+"Мошенник - Добрый день
+Ответчик - Да
+Мошенник - Я из пенсионного фонда
+Мошенник - На вас оформлена неверная выплата
+Мошенник - Для отмены операции сообщите код из смс",fraud,government_or_police,call,dialogue,data_request,1,0,0,0,1,0,0,0,2
+"Звонящий - Здравствуйте
+Ответчик - Да
+Звонящий - Ваш родственник попал в ДТП
+Звонящий - Нужны деньги срочно
+Звонящий - Переведите на этот счет пока не поздно",fraud,relative_in_trouble,call,dialogue,transfer_request,0,1,1,0,0,0,0,0,2
+"Мошенник - Алло
+Ответчик - Да
+Мошенник - Это оператор сотовой связи
+Мошенник - Ваш номер отключат через десять минут
+Мошенник - Назовите код чтобы продлить SIM карту",fraud,sim_block,call,dialogue,data_request,1,0,0,0,1,0,0,0,2
+"Звонящий - Добрый день
+Ответчик - Да
+Звонящий - Вам одобрен возврат средств
+Звонящий - Для получения денег зайдите в приложение банка
+Звонящий - И сообщите код безопасности",fraud,bank_impersonation,call,dialogue,unknown,1,0,0,0,1,0,0,0,2
+"Мошенник - Здравствуйте
+Ответчик - Здравствуйте
+Мошенник - Сейчас идет взлом вашего личного кабинета
+Мошенник - Мы создаем безопасную ячейку
+Мошенник - Переведите туда деньги",fraud,generic_fraud,call,dialogue,transfer_request,0,1,0,0,0,0,0,0,1
+"Оператор - Здравствуйте
+Клиент - Да
+Оператор - Это служба безопасности банка
+Оператор - Не называйте никому код
+Оператор - Лучше назовите его мне для проверки отмены операции",fraud,bank_impersonation,call,dialogue,unknown,0,0,0,0,1,0,0,0,1
+"Звонящий - Добрый день
+Ответчик - Да
+Звонящий - У вас подозрительный перевод за границу
+Звонящий - Для блокировки операции продиктуйте последние цифры карты и код из смс",fraud,generic_fraud,call,dialogue,transfer_request,1,1,0,0,0,0,0,0,2
+"Мошенник - Здравствуйте
+Ответчик - Слушаю
+Мошенник - Я из отдела безопасности госуслуг
+Мошенник - На вас оформляют доверенность
+Мошенник - Чтобы остановить действие скажите код подтверждения",fraud,government_or_police,call,dialogue,data_request,1,0,0,0,1,0,0,0,2
+"Мошенник - Добрый день
+Ответчик - Да
+Мошенник - На вашем устройстве замечена вирусная активность
+Мошенник - Мы переведем вас на специалиста
+Мошенник - Установите программу удаленного доступа",fraud,remote_access,call,dialogue,transfer_request,0,1,0,0,0,0,1,0,2
+"Звонящий - Алло
+Ответчик - Да
+Звонящий - Ваша карта будет заблокирована
+Звонящий - Чтобы сохранить деньги переведите их себе на безопасный счет",fraud,safe_account,call,dialogue,transfer_request,0,1,0,1,0,0,0,0,2
+"Мошенник - Здравствуйте
+Ответчик - Да
+Мошенник - Из банка техподдержки вас беспокоят
+Мошенник - Скажите код который пришел на телефон
+Мошенник - Иначе операцию нельзя отменить",fraud,bank_impersonation,call,dialogue,data_request,1,0,0,0,1,0,0,0,2
+"Звонящий - Добрый вечер
+Ответчик - Да
+Звонящий - Вам звонят из службы мониторинга переводов
+Звонящий - Переведите деньги на резервный счет и никому не говорите",fraud,safe_account,call,dialogue,transfer_request,0,1,0,0,0,0,0,0,1
+"Оператор - Здравствуйте
+Клиент - Слушаю
+Оператор - Вас приветствует интернет провайдер
+Оператор - Завтра с 10 до 14 возможны перебои связи
+Оператор - Работы плановые",normal,benign_service,call,dialogue,benign,0,0,0,0,1,0,0,0,1
+"Оператор - Добрый день
+Клиент - Да
+Оператор - Это банк
+Оператор - Подтверждаю что мы никогда не просим код из смс
+Оператор - Если кто то просит код завершите разговор",normal,bank_impersonation,call,dialogue,data_request,1,0,0,0,1,0,0,0,2
+"Специалист - Здравствуйте
+Клиент - Здравствуйте
+Специалист - По вашей заявке доставку перенесли на завтра
+Специалист - Дополнительных действий не требуется",normal,delivery_fee,call,dialogue,benign,0,0,0,0,0,0,0,0,0
+"Оператор - Добрый день
+Клиент - Да
+Оператор - Вы оставляли заявку на перевыпуск карты
+Клиент - Да
+Оператор - Готовую карту можно забрать в отделении с удостоверением личности",normal,benign_service,call,dialogue,benign,0,0,0,0,1,0,0,0,1
+"Специалист - Здравствуйте
+Клиент - Да
+Специалист - Это клиника
+Специалист - Напоминаем о записи на прием завтра в 15:30",normal,medical_or_service,call,dialogue,benign,0,0,0,0,0,0,0,0,0
+"Оператор - Добрый вечер
+Клиент - Слушаю
+Оператор - Вас беспокоит курьерская служба
+Оператор - Курьер будет у вас через час
+Оператор - Оплата при получении как в заказе",normal,delivery_fee,call,dialogue,transfer_request,0,1,0,0,1,0,0,0,2
+"Оператор - Здравствуйте
+Клиент - Да
+Оператор - Ваш интернет работает нестабильно
+Оператор - Мы можем оформить выезд мастера
+Оператор - Код из смс нам не нужен",normal,benign_service,call,dialogue,data_request,1,0,0,0,1,0,0,0,2
+"Сотрудник - Добрый день
+Клиент - Да
+Сотрудник - Это школа
+Сотрудник - Завтра родительское собрание переносится на 18:00",normal,benign_service,call,dialogue,benign,0,0,0,0,0,0,0,0,0
+"Оператор - Добрый день
+Клиент - Да
+Оператор - Вы подали обращение в поддержку
+Оператор - Оно решено
+Оператор - Оценить качество можно в приложении самостоятельно",normal,benign_service,call,dialogue,benign,0,0,0,0,1,0,0,0,1
+"Специалист - Здравствуйте
+Клиент - Да
+Специалист - Из поликлиники звонят
+Специалист - Анализы готовы
+Специалист - Получить результаты можно через регистратуру",normal,medical_or_service,call,dialogue,benign,0,0,0,0,0,0,0,0,0
+"Оператор - Добрый день
+Клиент - Слушаю
+Оператор - Это служба доставки
+Оператор - Для вручения нужен только адрес
+Оператор - Данные карты и коды не требуются",normal,delivery_fee,call,dialogue,benign,0,0,0,0,1,0,0,0,1
+"Оператор - Добрый день
+Клиент - Да
+Оператор - Вы оставляли заявку на подключение тарифа
+Оператор - Подключение подтверждено
+Оператор - Информация отобразится в приложении",normal,benign_service,call,dialogue,benign,0,0,0,0,1,0,0,0,1
+"Оператор - Алло здравствуйте
+Клиент - Да
+Оператор - Это банк
+Оператор - Мы звоним только чтобы подтвердить готовность карты в отделении
+Оператор - Коды и переводы по телефону не запрашиваем",normal,bank_impersonation,call,dialogue,transfer_request,0,1,0,0,1,0,0,0,2
+"Специалист - Добрый день
+Клиент - Да
+Специалист - Это страховая компания
+Специалист - Ваш полис продлен
+Специалист - Электронная версия уже отправлена на почту",normal,benign_service,call,dialogue,benign,0,0,0,0,0,0,0,0,0
+"Оператор - Здравствуйте
+Клиент - Да
+Оператор - Мы получили ваш запрос на смену номера доставки
+Оператор - Если заявку отправляли не вы просто отмените ее в личном кабинете",normal,delivery_fee,call,dialogue,benign,0,0,0,0,1,0,0,0,1
+"Оператор - Добрый день
+Клиент - Да
+Оператор - Мы напоминаем о задолженности за интернет
+Оператор - Оплатить можно только в приложении или кассе
+Оператор - Код по телефону сообщать не нужно",normal,benign_service,call,dialogue,transfer_request,0,1,0,0,1,0,0,0,2
+"Сотрудник - Здравствуйте
+Клиент - Да
+Сотрудник - Это университет
+Сотрудник - Ваш пропуск готов
+Сотрудник - Получить его можно в деканате",normal,benign_service,call,dialogue,benign,0,0,0,0,0,0,0,0,0
+"Оператор - Добрый день
+Клиент - Да
+Оператор - У вас оформлен возврат билета
+Оператор - Деньги придут автоматически на ту же карту
+Оператор - Никаких кодов называть не нужно",normal,benign_service,call,dialogue,benign,0,0,0,0,1,0,0,0,1
+"Специалист - Здравствуйте
+Клиент - Да
+Специалист - Это сервисный центр
+Специалист - Ваш ноутбук готов к выдаче
+Специалист - Стоимость ремонта указана в заказе",normal,benign_service,call,dialogue,benign,0,0,0,0,0,0,0,0,0
+"Оператор - Добрый день
+Клиент - Да
+Оператор - Мы подтверждаем запись на собеседование
+Оператор - Встреча завтра в 11:00 по адресу офиса",normal,benign_service,call,dialogue,benign,0,0,0,0,1,0,0,0,1
+"Оператор - Здравствуйте
+Клиент - Да
+Оператор - Это контакт центр банка
+Оператор - Напоминаем что сотрудники банка не просят перевести деньги на безопасный счет",normal,safe_account,call,dialogue,transfer_request,0,1,0,0,1,0,0,0,2
+"Специалист - Добрый вечер
+Клиент - Да
+Специалист - Это поддержка маркетплейса
+Специалист - Возврат оформлен
+Специалист - Сумма поступит автоматически без подтверждения кода",normal,benign_service,call,dialogue,benign,0,0,0,0,1,0,0,0,1
+"Оператор - Здравствуйте
+Клиент - Да
+Оператор - Ваш домашний интернет восстановлен
+Оператор - Если связь снова пропадет оставьте заявку в приложении",normal,benign_service,call,dialogue,benign,0,0,0,0,1,0,0,0,1
+"Сотрудник - Добрый день
+Клиент - Да
+Сотрудник - Это нотариус
+Сотрудник - Ваши документы готовы
+Сотрудник - Забрать их можно лично по записи",normal,benign_service,call,dialogue,benign,0,0,0,0,0,0,0,0,0
+"Оператор - Добрый день
+Клиент - Да
+Оператор - Мы звоним по заявке на консультацию
+Оператор - Для подтверждения личности достаточно назвать фамилию и номер обращения
+Оператор - Коды из смс не нужны",normal,benign_service,call,dialogue,benign,0,0,0,0,1,0,0,0,1
+"Здравствуйте, это курьер, везу ваш заказ, буду у вас через час",normal,delivery_fee,call,single_message,benign,0,0,0,0,0,0,0,0,0
+"Здравствуйте, это курьер, подъеду через 15 минут, пожалуйста будьте на связи",normal,delivery_fee,call,single_message,benign,0,0,0,0,0,0,0,0,0
+"Добрый день, это доставка, заказ привезем сегодня с 14 до 16",normal,delivery_fee,call,single_message,benign,0,0,0,0,0,0,0,0,0
+"Привет мам, это мой новый номер, старый отключился, сохрани пожалуйста",normal,benign_service,messenger,single_message,benign,0,0,0,0,0,0,0,0,0
+"Привет пап, это мой новый номер, потом позвоню с него вечером",normal,benign_service,messenger,single_message,benign,0,0,0,0,0,0,0,0,0
+"Привет, это я, сменила номер телефона, напиши мне сюда",normal,benign_service,messenger,single_message,benign,0,0,0,0,0,0,0,0,0
+"Здравствуйте, это мастер по интернету, буду у вас через 30 минут по заявке",normal,benign_service,call,single_message,benign,0,0,0,0,0,0,0,0,0
+"Добрый день, это врач, напоминаю что прием завтра в 10 утра",normal,medical_or_service,call,single_message,benign,0,0,0,0,0,0,0,0,0
+"Добрый день, это школа, ваш ребенок записан на экскурсию, автобус в 8 утра",normal,benign_service,call,single_message,benign,0,0,0,0,0,0,0,0,0
+"Здравствуйте, это администратор сервиса, ваша заявка принята, мастер приедет сегодня",normal,benign_service,call,single_message,benign,0,0,0,0,0,0,0,0,0
+"Привет дочка
+Привет мам
+Это мой новый номер, старый телефон сломался, сохрани пожалуйста",normal,benign_service,call,dialogue,benign,0,0,0,0,0,0,0,0,0
+"Здравствуйте, это курьер маркетплейса, привезу заказ до семи вечера",normal,delivery_fee,call,single_message,benign,0,0,0,0,0,0,0,0,0
+"Добрый день, это такси, водитель будет у подъезда через 3 минуты",normal,benign_service,call,single_message,benign,0,0,0,0,0,0,0,0,0
+"Здравствуйте, это салон, напоминаем о записи на стрижку завтра в 18:00",normal,benign_service,call,single_message,benign,0,0,0,0,0,0,0,0,0
